@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+	<title>Report Site</title>
+	<script src="js/labmethods.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script>
+    $(function() {
+        var tab = $('#tabs .tabs-items > div'); 
+        tab.hide().filter(':first').show(); 
+        
+        // Переходи по вкладкам.
+        $('#tabs .tabs-nav a').click(function(){
+            tab.hide(); 
+            tab.filter(this.hash).show(); 
+            $('#tabs .tabs-nav a').removeClass('active');
+            $(this).addClass('active');
+            return false;
+        }).filter(':first').click();
+    });
+    </script>
+
+
+</head>
+<body>
+	<div class="page">
+        <div class="title">
+            <div class="container">
+                <h1>ЗВІТИ  З ЛАБОРАТОРНИХ РОБІТ
+                <br>З ДИСЦИПЛІНИ «РОЗРОБЛЕННЯ WEB-ЗАСТОСУВАННЬ»</h1>
+                <h2>Студентів групи ІА-92: Дудіка А. А., Лейкіна М. М., Мешка І. С.</h2>
+            </div>
+    	</div>
+
+    	<div id="tabs">
+    		<!-- Кнопки -->
+    		<ul class="tabs-nav">
+        		<li><a href="#tab-1">Lab 1</a></li>
+        		<li><a href="#tab-2">Lab 2</a></li>
+        		<li><a href="#tab-3">Lab 3</a></li>
+        		<li><a href="#tab-4">Lab 4</a></li>
+    		</ul>
+
+    		<!-- Контент -->
+    <div class="tabs-items">
+        <div class="tabs-item" id="tab-1">
+            <div class="mainpage">
+            <div class="buttons">
+                <table>
+                    <tr><td><button class="button" onclick="description()">ОПИС ПРЕДМЕТНОГО СЕРЕДОВИЩА</button></td></tr>
+                    <tr><td><button class="button" onclick="mission()">ЗАГАЛЬНА ПОСТАНОВКА ЗАДАЧІ ПРОГРАМИ</button></td></tr>
+                    <tr><td><button class="button" onclick="mission_lab1()">ПОСТАНОВКА  ЗАДАЧІ Лабораторної роботи №1</button></td></tr>
+                    <tr><td><button class="button" onclick="structure()">СТРУКТУРА ДОКУМЕНТА</button></td></tr>
+                    <tr><td><button class="button" onclick="table()">HTML-код ТАБЛИЦЬ</button></td></tr>
+                    <tr><td><button class="button" onclick="formCode()">HTML-код ФОРМИ</button></td></tr>
+                    <tr><td><button class="button" onclick="picture()">HTML-код ЗОБРАЖЕННЯ</button></td></tr>
+                </table>
+            </div>
+            <div class="info-box">  
+                <p class="info" id="t1"></p>
+            </div>
+        </div>
+        </div>
+        <div class="tabs-item" id="tab-2">
+            <div class="mainpage">
+            <div class="buttons">
+                <table>
+                    <tr><td><button class="button" onclick="mission_lab2()">ПОСТАНОВКА ЗАДАЧІ Лабораторної роботи №2</button></td></tr>
+                    <tr><td><button class="button" onclick="lists()">СПИСКИ</button></td></tr>
+                    <tr><td><button class="button" onclick="identificators()">ІДЕНТИФІКАТОРИ</button></td></tr>
+                    <tr><td><button class="button" onclick="paddings()">ВІДСТУПИ</button></td></tr>
+                    <tr><td><button class="button" onclick="floatElements()">ПЛАВАЮЧІ ЕЛЕМЕНТИ</button></td></tr>
+                    <tr><td><button class="button" onclick="tagClassSelectors()">Селектори тегу і класу</button></td></tr>
+                    <tr><td><button class="button" onclick="otherSelectors()">Інші селектори</button></td></tr>
+                    <tr><td><button class="button" onclick="selectorsGrouping()">Групування селекторів</button></td></tr>
+                </table>
+            </div>
+            <div class="info-box">  
+                <p class="info" id="t2"></p>
+            </div>
+        </div>     
+    </div>
+    <div class="tabs-item" id="tab-3">
+            <div class="mainpage">
+            <div class="buttons">
+                <table>
+                    <tr><td><button class="button" onclick="mission_lab3()">ПОСТАНОВКА ЗАДАЧІ Лабораторної роботи №3</button></td></tr>
+                    <tr><td><button class="button" onclick="frontMaket()">Зовішній вигляд макету</button></td></tr>
+                    <tr><td><button class="button" onclick="tableMarkup()">Розмітка сторінки за допомогою таблиці</button></td></tr>
+                    <tr><td><button class="button" onclick="floatMarkup()">Розмітка сторінки за допомогою плаваючих блоків</button></td></tr>
+                </table>
+            </div>
+            <div class="info-box">  
+                <p class="info" id="t3"></p>
+            </div>
+        </div>     
+    </div>
+        <div class="tabs-item" id="tab-4">
+            <div class="mainpage">
+            <div class="buttons">
+                <table>
+                    <tr><td><button class="button" onclick="mission_lab4()">ПОСТАНОВКА  ЗАДАЧІ<br>Лабораторної роботи №4</button></td></tr>
+                    <tr><td><button class="button" onclick="scheme()">схема URL</button></td></tr>
+                    <tr><td><button class="button" onclick="handlerExample()">Обробник подій</button></td></tr>
+                    <tr><td><button class="button" onclick="entity()">Підстановка(entity)</button></td></tr>
+                    <tr><td><button class="button" onclick="insertion()">Вставка(тег SCRIPT)</button></td></tr>
+                    <tr><td><button class="button" onclick="task_4()">Масиви(пункт 4)</button></td></tr>
+                    <tr><td><button class="button" onclick="task_6()">Виконання 6-го пункту</button></td></tr>
+                    <tr><td><button class="button" onclick="conclution()">Висновок</button></td></tr>
+                </table>
+            </div>
+            <div class="info-box">  
+                <p class="info" id="t4"></p>
+            </div>
+        </div>
+        </div>
+</div>  
+</div>
+
