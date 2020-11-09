@@ -93,7 +93,11 @@
     }
 //Lab2
     function mission_lab2(){
-        document.getElementById("t2").innerHTML = "Постановка задачі: придбати практичні навички роботи  з селекторами,ідентифікаторами, списками,  різноманітними властивостями кольору і фону,  зовнішними та внутрішними  відступами,  плаваючими елементами, оформленням текстових елементів";
+        var text = document.getElementById("t2");
+        text.innerHTML = "";
+        var pic1 = document.createElement("IMG");
+        pic1.src = "images/Lab2/task.jpg";
+        text.appendChild(pic1);
     }
     function lists(){
         var text = document.getElementById("t2");
@@ -180,7 +184,11 @@
     }
 //Lab3
     function mission_lab3(){
-        document.getElementById("t3").innerHTML = "Постановка задачі: придбати практичні навички роботи  верстки сторінок засобами CSS, верстки на основі плаваючих елементів, з’ясувати переваги та недоліки типів макетів веб-сторінок.";
+        var text = document.getElementById("t3");
+        text.innerHTML = "";
+        var pic1 = document.createElement("IMG");
+        pic1.src = "images/Lab3/task.jpg";
+        text.appendChild(pic1);
     }
     function frontMaket(){
         var text = document.getElementById("t3");
@@ -208,28 +216,265 @@
     }
 //Lab4
     function mission_lab4(){
-        document.getElementById("t4").innerHTML = "придбати практичні навички роботи маніпулювання інформаційним вмістом Web-документа засобами мови JavasSript, використання об’єктів,масивів, функцій, подій, обробників подій у сценаріях на мові JavasSript";
+        var text = document.getElementById("t4");
+        text.innerHTML = "";
+        var pic1 = document.createElement("IMG");
+        pic1.src = "images/Lab4/task.jpg";
+        text.appendChild(pic1);
 
     }
     function scheme(){
+        var text = document.getElementById("t4");
+        text.innerHTML = "";
+        var pic1 = document.createElement("IMG");
+        var pic2 = document.createElement("IMG");
+        var pic3 = document.createElement("IMG");
+        pic1.src = "images/Lab4/URL/1.jpg";
+        pic2.src = "images/Lab4/URL/1.1.jpg";
+        pic3.src = "images/Lab4/URL/2.jpg";
+        text.appendChild(pic1);
+        text.appendChild(pic2);
+        text.appendChild(pic3);
 
     }
-    function hanlerExample(){
-
-    }
-    function entity(){
+    function handlerExample(){
+        var text = document.getElementById("t4");
+        text.innerHTML = "";
+        var pic1 = document.createElement("IMG");
+        var pic2 = document.createElement("IMG");
+        var pic3 = document.createElement("IMG");
+        pic1.src = "images/Lab4/Handler/1.jpg";
+        pic2.src = "images/Lab4/Handler/1.1.jpg";
+        pic3.src = "images/Lab4/Handler/2.jpg";
+        text.appendChild(pic1);
+        text.appendChild(pic2);
+        text.appendChild(pic3);
 
     }
     function insertion(){
+        var text = document.getElementById("t4");
+        text.innerHTML = "";
+        var pic1 = document.createElement("IMG");
+        var pic2 = document.createElement("IMG");
+        var pic3 = document.createElement("IMG");
+        pic1.src = "images/Lab4/Script/1.jpg";
+        pic2.src = "images/Lab4/Script/2.jpg";
+        pic3.src = "images/Lab4/Script/3.jpg";
+        text.appendChild(pic1);
+        text.appendChild(pic2);
+        text.appendChild(pic3);
 
     }
     function task_4(){
-
+        var text = document.getElementById("t4");
+        text.innerHTML = "";
+        var pic1 = document.createElement("IMG");
+        var pic2 = document.createElement("IMG");
+        var pic3 = document.createElement("IMG");
+        var pic4 = document.createElement("IMG");
+        var pic5 = document.createElement("IMG");
+        var pic6 = document.createElement("IMG");
+        var pic7 = document.createElement("IMG");
+        var pic8 = document.createElement("IMG");
+        var pic9 = document.createElement("IMG");
+        var pic10 = document.createElement("IMG");
+        var pic11 = document.createElement("IMG");
+        var pic12 = document.createElement("IMG");
+        var pic13 = document.createElement("IMG");
+        var pic14 = document.createElement("IMG");
+        pic1.src = "images/Lab4/variant_3.1.jpg";
+        pic2.src = "images/Lab4/DudikTask/1.1.jpg";
+        pic3.src = "images/Lab4/DudikTask/1.2.jpg";
+        pic4.src = "images/Lab4/DudikTask/1.3.jpg";
+        pic5.src = "images/Lab4/variant_9.1.jpg";
+        pic6.src = "images/Lab4/LeikinTask/1.1.jpg";
+        pic7.src = "images/Lab4/LeikinTask/1.2.jpg";
+        pic8.src = "images/Lab4/LeikinTask/1.3.jpg";
+        pic9.src = "images/Lab4/LeikinTask/1.4.jpg";
+        pic10.src = "images/Lab4/variant_10.1.jpg";
+        pic11.src = "images/Lab4/MeshkoTask/1.1.jpg";
+        pic12.src = "images/Lab4/MeshkoTask/1.2.jpg";
+        pic13.src = "images/Lab4/MeshkoTask/1.3.jpg";
+        pic14.src = "images/Lab4/MeshkoTask/1.4.jpg";
+        text.appendChild(pic1);
+        text.appendChild(pic2);
+        text.appendChild(pic3);
+        text.appendChild(pic4);
+        text.appendChild(pic5);
+        text.appendChild(pic6);
+        text.appendChild(pic7);
+        text.appendChild(pic8);
+        text.appendChild(pic9);
+        text.appendChild(pic10);
+        text.appendChild(pic11);
+        text.appendChild(pic12);
+        text.appendChild(pic13);
+        text.appendChild(pic14);
     }
     function task_6(){
-
+        var text = document.getElementById("t4");
+        text.innerHTML = "";
+        var pic1 = document.createElement("IMG");
+        var pic2 = document.createElement("IMG");
+        var pic3 = document.createElement("IMG");
+        var pic4 = document.createElement("IMG");
+        var pic5 = document.createElement("IMG");
+        var pic6 = document.createElement("IMG");
+        var pic7 = document.createElement("IMG");
+        var pic8 = document.createElement("IMG");
+        var pic9 = document.createElement("IMG");
+        var pic10 = document.createElement("IMG");
+        var pic11 = document.createElement("IMG");
+        var pic12 = document.createElement("IMG");
+        var pic13 = document.createElement("IMG");
+        var pic14 = document.createElement("IMG");
+        var pic15 = document.createElement("IMG");
+        var pic16 = document.createElement("IMG");
+        var pic17 = document.createElement("IMG");
+        pic1.src = "images/Lab4/variant_3.2.jpg";
+        pic2.src = "images/Lab4/DudikTask/2.1.jpg";
+        pic3.src = "images/Lab4/DudikTask/2.2.jpg";
+        pic4.src = "images/Lab4/DudikTask/2.3.jpg";
+        pic5.src = "images/Lab4/DudikTask/2.4.jpg";
+        pic6.src = "images/Lab4/DudikTask/2.5.jpg";
+        pic7.src = "images/Lab4/DudikTask/2.6.jpg";
+        pic8.src = "images/Lab4/variant_9.2.jpg";
+        pic9.src = "images/Lab4/LeikinTask/2.1.jpg";
+        pic10.src = "images/Lab4/LeikinTask/2.2.jpg";
+        pic11.src = "images/Lab4/LeikinTask/2.3.jpg";
+        pic12.src = "images/Lab4/LeikinTask/2.4.jpg";
+        pic13.src = "images/Lab4/variant_10.2.jpg";
+        pic14.src = "images/Lab4/MeshkoTask/2.1.jpg";
+        pic15.src = "images/Lab4/MeshkoTask/2.2.jpg";
+        pic16.src = "images/Lab4/MeshkoTask/2.3.jpg";
+        pic17.src = "images/Lab4/MeshkoTask/2.4.jpg";
+        text.appendChild(pic1);
+        text.appendChild(pic2);
+        text.appendChild(pic3);
+        text.appendChild(pic4);
+        text.appendChild(pic5);
+        text.appendChild(pic6);
+        text.appendChild(pic7);
+        text.appendChild(pic8);
+        text.appendChild(pic9);
+        text.appendChild(pic10);
+        text.appendChild(pic11);
+        text.appendChild(pic12);
+        text.appendChild(pic13);
+        text.appendChild(pic14);
+        text.appendChild(pic15);
+        text.appendChild(pic16);
+        text.appendChild(pic17);
     }
-    function conclution(){
-
+    function conclution_4(){
+        document.getElementById("t4").innerHTML = "Під час виконання лабораторної роботи ми придбали практичні навички роботи маніпулювання інформаційним вмістом Web-документа засобами мови JavasSript, використання об’єктів,масивів, функцій, подій, обробників подій у сценаріях на мові JavasSript"
     }
 //Lab5
+ function mission_lab5(){
+        var text = document.getElementById("t5");
+        text.innerHTML = "";
+        var pic1 = document.createElement("IMG");
+        pic1.src = "images/Lab5/task.jpg";
+        text.appendChild(pic1);
+    }
+    function dynamic(){
+        var text = document.getElementById("t5");
+        text.innerHTML = "";
+        var pic1 = document.createElement("IMG");
+        var pic2 = document.createElement("IMG");
+        var pic3 = document.createElement("IMG");
+        var pic4 = document.createElement("IMG");
+        var pic5 = document.createElement("IMG");
+        var pic6 = document.createElement("IMG");
+        var pic7 = document.createElement("IMG");
+        var pic8 = document.createElement("IMG");
+        var pic9 = document.createElement("IMG");
+        var pic10 = document.createElement("IMG");
+        var pic11 = document.createElement("IMG");
+        var pic12 = document.createElement("IMG");
+        var pic13 = document.createElement("IMG");
+        var pic14 = document.createElement("IMG");
+        var pic15 = document.createElement("IMG");
+        var pic16 = document.createElement("IMG");
+        var pic17 = document.createElement("IMG");
+        pic1.src = "images/Lab5/Accordion/1.jpg";
+        pic2.src = "images/Lab5/Accordion/2.jpg";
+        pic3.src = "images/Lab5/Accordion/3.jpg";
+        pic4.src = "images/Lab5/Datepicker/1.jpg";
+        pic5.src = "images/Lab5/Datepicker/2.jpg";
+        pic6.src = "images/Lab5/Datepicker/3.jpg";
+        pic7.src = "images/Lab5/Tooltips/Photo.jpg";
+        pic8.src = "images/Lab5/Tooltips/Slider-photo.jpg";
+        pic9.src = "images/Lab5/Tooltips/Slider-video.jpg";
+        text.appendChild(pic1);
+        text.appendChild(pic2);
+        text.appendChild(pic3);
+        text.appendChild(pic4);
+        text.appendChild(pic5);
+        text.appendChild(pic6);
+        text.appendChild(pic7);
+        text.appendChild(pic8);
+        text.appendChild(pic9);
+    }
+    function UniteGallery(){
+        var text = document.getElementById("t5");
+        text.innerHTML = "";
+        var pic1 = document.createElement("IMG");
+        var pic2 = document.createElement("IMG");
+        pic1.src = "images/Lab5/UniteGallery/1.jpg";
+        pic2.src = "images/Lab5/UniteGallery/2.jpg";
+        text.appendChild(pic1);
+        text.appendChild(pic2);
+    }
+    function gallery(){
+        var text = document.getElementById("t5");
+        text.innerHTML = "";
+        var pic1 = document.createElement("IMG");
+        pic1.src = "images/Lab5/UniteGallery/Photo.jpg"
+        text.appendChild(pic1);
+
+    }
+    function photoSlider(){
+        var text = document.getElementById("t5");
+        text.innerHTML = "";
+        var pic1 = document.createElement("IMG");
+        pic1.src = "images/Lab5/UniteGallery/Slider-Photo.jpg"
+        text.appendChild(pic1);
+    }
+    function videoSlider(){
+        var text = document.getElementById("t5");
+        text.innerHTML = "";
+        var pic1 = document.createElement("IMG");
+        pic1.src = "images/Lab5/UniteGallery/Slider-Video.jpg"
+        text.appendChild(pic1);
+    }
+    function socialButtons(){
+        var text = document.getElementById("t5");
+        text.innerHTML = "";
+        var pic1 = document.createElement("IMG");
+        var pic2 = document.createElement("IMG");
+        var pic3 = document.createElement("IMG");
+        pic1.src = "images/Lab5/SocialButtons/1.jpg";
+        pic2.src = "images/Lab5/SocialButtons/2.jpg";
+        pic3.src = "images/Lab5/SocialButtons/3.jpg";
+        text.appendChild(pic1);
+        text.appendChild(pic2);
+        text.appendChild(pic3);
+
+    }
+    function informer(){
+        var text = document.getElementById("t5");
+        text.innerHTML = "";
+        var pic1 = document.createElement("IMG");
+        var pic2 = document.createElement("IMG");
+        var pic3 = document.createElement("IMG");
+        pic1.src = "images/Lab5/Informers/1.jpg";
+        pic2.src = "images/Lab5/Informers/2.jpg";
+        pic3.src = "images/Lab5/Informers/3.jpg";
+        text.appendChild(pic1);
+        text.appendChild(pic2);
+        text.appendChild(pic3);
+    }
+    function conclution_5(){
+        document.getElementById("t5").innerHTML = "Під час виконання лабораторної роботи ми придбали практичні навички роботи jQuery UI,навчились додавати до сайту  динамічні елементи цієї бібіліотеки, плагін галереї UniteGallery, кнопки соціальних мереж, інформери"
+    }
