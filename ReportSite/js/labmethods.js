@@ -370,7 +370,7 @@
         document.getElementById("t4").innerHTML = "Під час виконання лабораторної роботи ми придбали практичні навички роботи маніпулювання інформаційним вмістом Web-документа засобами мови JavasSript, використання об’єктів,масивів, функцій, подій, обробників подій у сценаріях на мові JavasSript"
     }
 //Lab5
- function mission_lab5(){
+    function mission_lab5(){
         var text = document.getElementById("t5");
         text.innerHTML = "";
         var pic1 = document.createElement("IMG");
@@ -389,14 +389,6 @@
         var pic7 = document.createElement("IMG");
         var pic8 = document.createElement("IMG");
         var pic9 = document.createElement("IMG");
-        var pic10 = document.createElement("IMG");
-        var pic11 = document.createElement("IMG");
-        var pic12 = document.createElement("IMG");
-        var pic13 = document.createElement("IMG");
-        var pic14 = document.createElement("IMG");
-        var pic15 = document.createElement("IMG");
-        var pic16 = document.createElement("IMG");
-        var pic17 = document.createElement("IMG");
         pic1.src = "images/Lab5/Accordion/1.jpg";
         pic2.src = "images/Lab5/Accordion/2.jpg";
         pic3.src = "images/Lab5/Accordion/3.jpg";
@@ -478,3 +470,76 @@
     function conclution_5(){
         document.getElementById("t5").innerHTML = "Під час виконання лабораторної роботи ми придбали практичні навички роботи jQuery UI,навчились додавати до сайту  динамічні елементи цієї бібіліотеки,а саме tooltip, datepicker, і accordion, плагін галереї UniteGallery, кнопки соціальних мереж, інформери"
     }
+//Lab6
+    function mission_lab6(){
+        var text = document.getElementById("t6");
+        text.innerHTML = "";
+        var pic1 = document.createElement("IMG");
+        pic1.src = "images/Lab6/topic.jpg";
+        text.appendChild(pic1);
+    }
+    function dynamic_6(){
+        var text = document.getElementById("t6");
+        text.innerHTML = "";
+        var pic1 = document.createElement("IMG");
+        var pic2 = document.createElement("IMG");
+        var pic3 = document.createElement("IMG");
+        var pic4 = document.createElement("IMG");
+        var pic5 = document.createElement("IMG");
+        var pic6 = document.createElement("IMG");
+        var pic7 = document.createElement("IMG");
+        pic1.src = "images/Lab6/jquery/1.jpg";
+        pic2.src = "images/Lab6/jquery/check-box.jpg";
+        pic3.src = "images/Lab6/jquery/1.1.jpg";
+        pic4.src = "images/Lab6/jquery/menu.jpg";
+        pic5.src = "images/Lab6/jquery/1.2.jpg";
+        pic6.src = "images/Lab6/jquery/accordion.jpg";
+        pic7.src = "images/Lab6/jquery/1.3.jpg";
+        text.appendChild(pic1);
+        text.appendChild(pic2);
+        text.appendChild(pic3);
+        text.appendChild(pic4);
+        text.appendChild(pic5);
+        text.appendChild(pic6);
+        text.appendChild(pic7);
+    }
+    function setup(){
+        var text = document.getElementById("t6");
+        text.innerHTML = "";
+        var pic1 = document.createElement("IMG");
+        var pic2 = document.createElement("IMG");
+        var pic3 = document.createElement("IMG");
+        var pic4 = document.createElement("IMG");
+        var pic5 = document.createElement("IMG");
+        var pic6 = document.createElement("IMG");
+        var pic7 = document.createElement("IMG");
+        var pic8 = document.createElement("IMG");
+        var pic9 = document.createElement("IMG");
+        var pic10 = document.createElement("IMG");
+        var pic11 = document.createElement("IMG");
+        pic1.src = "images/Lab6/Download/1.jpg";
+        pic2.src = "images/Lab6/Download/2.jpg";
+        pic3.src = "images/Lab6/Download/3.jpg";
+        pic4.src = "images/Lab6/Download/4.jpg";
+        pic5.src = "images/Lab6/Download/5.jpg";
+        pic6.src = "images/Lab6/Download/6.jpg";
+        pic7.src = "images/Lab6/Download/7.jpg";
+        pic8.src = "images/Lab6/Download/8.jpg";
+        pic9.src = "images/Lab6/Download/9.jpg";
+        pic10.src = "images/Lab6/Download/10.jpg";
+        pic11.src = "images/Lab6/Download/11.jpg";
+        text.appendChild(pic1);
+        text.appendChild(pic2);
+        text.appendChild(pic3);
+        text.appendChild(pic4);
+        text.appendChild(pic5);
+        text.appendChild(pic6);
+        text.appendChild(pic7);
+        text.appendChild(pic8);
+        text.appendChild(pic9);
+        text.appendChild(pic10);
+        text.appendChild(pic11);
+    }
+    function conclution_6(){
+        document.getElementById("t6").innerHTML = "Під час виконання лабораторної роботи ми придбали практичні навички з встановлення та конфігурування WEB-сервера, навчились добавляти динамічні елементи jQuery, а саме check-box, accordion, menu bar, і навчились встановлювати та налаштовувати Apache"
+    } 
